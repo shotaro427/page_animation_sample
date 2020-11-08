@@ -75,6 +75,7 @@ class _MyHomePageState extends State<MyHomePage> {
     // ~~~ 追加 ~~~
     _pageController.animateToPage(index,
         duration: const Duration(milliseconds: 100), curve: Curves.easeIn);
+    // ~~~ ここまで ~~~
     setState(() {
       _currentIndex = index;
     });
